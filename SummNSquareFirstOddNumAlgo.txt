@@ -1,0 +1,14 @@
+Algorithme SummNSquareFirstOddNum
+variables
+  n,i,s:entier
+debut 
+  ecrire("entree Numb")
+  lire(n)
+  s<-0
+  i<-0
+  tant que i<=n faire
+    si( i mod 2 <> 0)
+       s = s+i^2
+       i=i+1
+  fin tantque
+fin
